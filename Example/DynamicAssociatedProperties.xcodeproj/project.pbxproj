@@ -7,29 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57C699F91BC0400B0020DE5F /* AWTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C699F81BC0400B0020DE5F /* AWTestClass.m */; settings = {ASSET_TAGS = (); }; };
+		57C699FC1BC0401C0020DE5F /* AWTestClass+AWTestCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C699FB1BC0401C0020DE5F /* AWTestClass+AWTestCategory.m */; settings = {ASSET_TAGS = (); }; };
+		57C699FF1BC0402B0020DE5F /* NSObject+AWTestCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C699FE1BC0402B0020DE5F /* NSObject+AWTestCategory.m */; settings = {ASSET_TAGS = (); }; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		DA73CB4640FE6F4B55D8BEA3 /* Pods_DynamicAssociatedProperties_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3463BAE7E40563560A7AFD3D /* Pods_DynamicAssociatedProperties_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6003F5BC195388D20070C39A /* Tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.mm */; };
+		D2CE09FBF84F2233D4342EB8 /* Pods_DynamicAssociatedProperties_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E40AD4C8E9D8B3E9BA51C9 /* Pods_DynamicAssociatedProperties_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3463BAE7E40563560A7AFD3D /* Pods_DynamicAssociatedProperties_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicAssociatedProperties_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C699F71BC0400B0020DE5F /* AWTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTestClass.h; sourceTree = "<group>"; };
+		57C699F81BC0400B0020DE5F /* AWTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTestClass.m; sourceTree = "<group>"; };
+		57C699FA1BC0401C0020DE5F /* AWTestClass+AWTestCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AWTestClass+AWTestCategory.h"; sourceTree = "<group>"; };
+		57C699FB1BC0401C0020DE5F /* AWTestClass+AWTestCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AWTestClass+AWTestCategory.m"; sourceTree = "<group>"; };
+		57C699FD1BC0402B0020DE5F /* NSObject+AWTestCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AWTestCategory.h"; sourceTree = "<group>"; };
+		57C699FE1BC0402B0020DE5F /* NSObject+AWTestCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AWTestCategory.m"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = DynamicAssociatedProperties_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* DynamicAssociatedProperties_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicAssociatedProperties_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Tests.mm; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		68DA09EF06B86AF2AC7883C2 /* Pods-DynamicAssociatedProperties_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicAssociatedProperties_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicAssociatedProperties_Tests/Pods-DynamicAssociatedProperties_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		89D87CD6EA6DDB4BEC8DBB10 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9F552DEA0D28A4147AF16748 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ADE3F7D6EEFEDDBF33377F80 /* Pods-DynamicAssociatedProperties_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicAssociatedProperties_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicAssociatedProperties_Tests/Pods-DynamicAssociatedProperties_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B8E40AD4C8E9D8B3E9BA51C9 /* Pods_DynamicAssociatedProperties_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicAssociatedProperties_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6FADEA6479988D265A38616 /* DynamicAssociatedProperties.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DynamicAssociatedProperties.podspec; path = ../DynamicAssociatedProperties.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +50,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				DA73CB4640FE6F4B55D8BEA3 /* Pods_DynamicAssociatedProperties_Tests.framework in Frameworks */,
+				D2CE09FBF84F2233D4342EB8 /* Pods_DynamicAssociatedProperties_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +80,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F5AE195388D20070C39A /* DynamicAssociatedProperties_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,7 +92,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				3463BAE7E40563560A7AFD3D /* Pods_DynamicAssociatedProperties_Tests.framework */,
+				B8E40AD4C8E9D8B3E9BA51C9 /* Pods_DynamicAssociatedProperties_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -91,7 +100,13 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5BB195388D20070C39A /* Tests.mm */,
+				57C699F71BC0400B0020DE5F /* AWTestClass.h */,
+				57C699F81BC0400B0020DE5F /* AWTestClass.m */,
+				57C699FA1BC0401C0020DE5F /* AWTestClass+AWTestCategory.h */,
+				57C699FB1BC0401C0020DE5F /* AWTestClass+AWTestCategory.m */,
+				57C699FD1BC0402B0020DE5F /* NSObject+AWTestCategory.h */,
+				57C699FE1BC0402B0020DE5F /* NSObject+AWTestCategory.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -128,8 +143,8 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				1ACCA641109EA038DDD17663 /* Embed Pods Frameworks */,
 				3CDDB1BF02F4434D137F73C6 /* Copy Pods Resources */,
+				7EA871F639CC916C765088B9 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,7 +152,7 @@
 			);
 			name = DynamicAssociatedProperties_Tests;
 			productName = DynamicAssociatedPropertiesTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* DynamicAssociatedProperties_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -147,7 +162,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = AW;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Victor Pavlychko";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -185,21 +200,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1ACCA641109EA038DDD17663 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicAssociatedProperties_Tests/Pods-DynamicAssociatedProperties_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3CDDB1BF02F4434D137F73C6 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -230,6 +230,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		7EA871F639CC916C765088B9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicAssociatedProperties_Tests/Pods-DynamicAssociatedProperties_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -237,7 +252,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				57C699F91BC0400B0020DE5F /* AWTestClass.m in Sources */,
+				57C699FF1BC0402B0020DE5F /* NSObject+AWTestCategory.m in Sources */,
+				6003F5BC195388D20070C39A /* Tests.mm in Sources */,
+				57C699FC1BC0401C0020DE5F /* AWTestClass+AWTestCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +291,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -343,6 +362,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicAssociatedProperties_Example.app/DynamicAssociatedProperties_Example";
 				WRAPPER_EXTENSION = xctest;
@@ -361,6 +381,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicAssociatedProperties_Example.app/DynamicAssociatedProperties_Example";
 				WRAPPER_EXTENSION = xctest;

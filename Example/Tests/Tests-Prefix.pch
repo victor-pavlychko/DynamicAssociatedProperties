@@ -2,7 +2,17 @@
 
 #ifdef __OBJC__
 
-  @import Specta;
-  @import Expecta;
+    #ifdef __cplusplus
+
+        #import <Specta/Specta.h>
+        #import <Expecta/Expecta.h>
+
+    #else
+
+        @import Specta;
+        @import Expecta;
+        @import DynamicAssociatedProperties;
+
+    #endif
 
 #endif

@@ -1,0 +1,20 @@
+PODS:
+  - DynamicAssociatedProperties (0.1.0)
+  - Expecta (1.0.3)
+  - Specta (1.0.4)
+
+DEPENDENCIES:
+  - DynamicAssociatedProperties (from `../`)
+  - Expecta
+  - Specta
+
+EXTERNAL SOURCES:
+  DynamicAssociatedProperties:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DynamicAssociatedProperties: 7d8dcfb3b947b5f9d0e5580f803bdd7b8f100783
+  Expecta: 9d1bff6c8b0eeee73a166a2ee898892478927a15
+  Specta: 69bb134672aae190a1379ff91df07dad8dd1f869
+
+COCOAPODS: 0.38.2

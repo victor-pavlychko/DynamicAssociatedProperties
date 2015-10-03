@@ -1,0 +1,6 @@
+framework module DynamicAssociatedProperties {
+  umbrella header "DynamicAssociatedProperties-umbrella.h"
+
+  export *
+  module * { export * }
+}

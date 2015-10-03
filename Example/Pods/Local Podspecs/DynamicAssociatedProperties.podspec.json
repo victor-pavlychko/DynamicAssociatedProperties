@@ -1,0 +1,26 @@
+{
+  "name": "DynamicAssociatedProperties",
+  "version": "0.1.0",
+  "summary": "A short description of DynamicAssociatedProperties.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DynamicAssociatedProperties",
+  "license": "MIT",
+  "authors": {
+    "Victor Pavlychko": "victor.pavlychko@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DynamicAssociatedProperties.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "DynamicAssociatedProperties": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/NSObject+DynamicAssociatedProperties.h"
+}
