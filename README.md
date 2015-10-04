@@ -1,6 +1,6 @@
 # DynamicAssociatedProperties
 
-[![CI Status](http://img.shields.io/travis/Victor Pavlychko/DynamicAssociatedProperties.svg?style=flat)](https://travis-ci.org/Victor Pavlychko/DynamicAssociatedProperties)
+[![CI Status](http://img.shields.io/travis/victor-pavlychko/DynamicAssociatedProperties.svg?style=flat)](https://travis-ci.org/victor-pavlychko/DynamicAssociatedProperties)
 [![Version](https://img.shields.io/cocoapods/v/DynamicAssociatedProperties.svg?style=flat)](http://cocoapods.org/pods/DynamicAssociatedProperties)
 [![License](https://img.shields.io/cocoapods/l/DynamicAssociatedProperties.svg?style=flat)](http://cocoapods.org/pods/DynamicAssociatedProperties)
 [![Platform](https://img.shields.io/cocoapods/p/DynamicAssociatedProperties.svg?style=flat)](http://cocoapods.org/pods/DynamicAssociatedProperties)
