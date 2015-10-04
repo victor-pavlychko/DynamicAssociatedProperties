@@ -9,15 +9,13 @@
 Pod::Spec.new do |s|
   s.name             = "DynamicAssociatedProperties"
   s.version          = "0.1.0"
-  s.summary          = "NSObject category to dynamically implement category properties usning objc_setAssociatedObject."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
-#  s.description      = <<-DESC
-#                       DESC
+  s.summary          = "Automatically implement @dynamic property accessors usning objc_setAssociatedObject."
+  s.description      = <<-DESC
+DynamicAssociatedProperties library automatically generates accessors for @dynamic properties
+defined in categories using objc_getAssociatedObject/objc_setAssociatedObject for backing storage.
+Library objects, standard numeric types, custom structs, several UIKit structs, strong/copy/weak/assign
+policies and custom accessor name specifications.
+                         DESC
 
   s.homepage         = "https://github.com/victor-pavlychko/DynamicAssociatedProperties"
   s.license          = 'MIT'
