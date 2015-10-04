@@ -37,7 +37,7 @@ namespace accessor_block_factories {
     template<> id getterBlockFactory<long>               (const void *key) { return ^(id self_) { return [objc_getAssociatedObject(self_, key) longValue]; }; }
     template<> id getterBlockFactory<unsigned long>      (const void *key) { return ^(id self_) { return [objc_getAssociatedObject(self_, key) unsignedLongValue]; }; }
     template<> id getterBlockFactory<long long>          (const void *key) { return ^(id self_) { return [objc_getAssociatedObject(self_, key) longLongValue]; }; }
-    template<> id getterBlockFactory<unsigned long long> (const void *key) { return ^(id self_) { return [objc_getAssociatedObject(self_, key) unsignedLongValue]; }; }
+    template<> id getterBlockFactory<unsigned long long> (const void *key) { return ^(id self_) { return [objc_getAssociatedObject(self_, key) unsignedLongLongValue]; }; }
     template<> id getterBlockFactory<float>              (const void *key) { return ^(id self_) { return [objc_getAssociatedObject(self_, key) floatValue]; }; }
     template<> id getterBlockFactory<double>             (const void *key) { return ^(id self_) { return [objc_getAssociatedObject(self_, key) doubleValue]; }; }
     template<> id getterBlockFactory<BOOL>               (const void *key) { return ^(id self_) { return [objc_getAssociatedObject(self_, key) boolValue]; }; }
