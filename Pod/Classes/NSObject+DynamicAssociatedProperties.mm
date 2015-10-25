@@ -60,14 +60,14 @@ namespace
         if (getterBlock && setterBlock)
         {
             size_t typeEncodingLength = strlen(typeEncoding);
-            char methodEncoding[typeEncodingLength + 3];
+            char methodEncoding[typeEncodingLength + 4];
             
             IMP getterImp = imp_implementationWithBlock(getterBlock);
-            sprintf(methodEncoding, "%s:@", typeEncoding);
+            sprintf(methodEncoding, "%s@:", typeEncoding);
             class_addMethod(cls, getterSelector, getterImp, methodEncoding);
             
             IMP setterImp = imp_implementationWithBlock(setterBlock);
-            sprintf(methodEncoding, "v:%s", typeEncoding);
+            sprintf(methodEncoding, "v@:%s", typeEncoding);
             class_addMethod(cls, setterSelector, setterImp, methodEncoding);
         }
         else
